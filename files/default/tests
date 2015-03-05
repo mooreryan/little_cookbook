@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xvfb-run -a spring cucumber
+xvfb-run -a spring rspec
