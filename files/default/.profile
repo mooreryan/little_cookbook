@@ -21,4 +21,4 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-PATH=/home/vagrant/scripts:$PATH
+PATH=$PATH:/home/vagrant/scripts
